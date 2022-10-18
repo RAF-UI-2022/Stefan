@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E78DDFE-B80C-A03C-48DA-A631933C6873" name="LoginAttemptHistory">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:09:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D72D02DD-A0B6-1EB6-DA03-57A463D0B716">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:10:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_succ" id="31C70DA3-990F-D4E3-ED91-946E046DE32F">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:10:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="attempted_at" id="6B23BFA6-6471-CDAE-E2A0-28502C283922">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:11:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_id" id="A71AA207-D19C-F3BA-6450-80F3908D1768">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:11:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3FC8697-0480-69D9-F7BE-EF18AC5C5DD4" referredColumn="DB01380D-72B2-E296-2DFF-D676EB529462"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96DCB0B1-7E6E-4D01-B86F-5FF5051B9613" name="LoginAttemptHistory_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:10:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D72D02DD-A0B6-1EB6-DA03-57A463D0B716"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEE51E5B-B58D-0AAE-4FD1-B58CD0959382" name="LoginAttemptHistory_Customer_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:11:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A71AA207-D19C-F3BA-6450-80F3908D1768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

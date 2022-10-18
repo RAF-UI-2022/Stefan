@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F19E02-33E1-E1AC-03DF-27DDBE4C598A" name="PasswordHistory">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:01:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6D241B3D-F5C7-E563-8413-369C9B1D53BD">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pass_hash" id="DC7F333F-3F0D-06F6-7C41-E8084F58BA1E">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:05:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="changed" id="A6EEF41F-3C39-7D17-9E09-73762B3D937F">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:06:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_id" id="20B517E5-7189-82D7-A28B-D6D917029764">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:07:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84C8BDF9-3414-37F1-16E5-1853FF035A46" referredColumn="DB01380D-72B2-E296-2DFF-D676EB529462"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C8CAA05-DB26-33D8-4835-7A745FEB096A" name="PasswordHistory_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D241B3D-F5C7-E563-8413-369C9B1D53BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8337F783-0038-B133-482A-6735CDFCEDD6" name="PasswordHistory_Customer_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:07:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20B517E5-7189-82D7-A28B-D6D917029764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

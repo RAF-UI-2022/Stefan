@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C739163A-29BC-2ECC-C082-C9AA75E9D60D" name="Shipment">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:17:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="60EA1083-4EA0-D698-3E88-C99C74E3451C">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:18:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="to_address" id="2997D19C-0A04-7A63-5DF7-D744B01CB008">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:18:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="from_address" id="4B570AD5-075A-6BF9-B1FB-0B6AAFD80F07">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:19:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sent_at" id="C0DEEA54-C43F-DB90-E080-CBFC690F2FD0">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:19:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_id" id="B1A6C9CA-C8BD-018A-987C-B66B0287563D">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:20:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB3FD308-DA4B-FABB-B4B0-2FE223433368" referredColumn="12D50618-D124-E540-BE22-D5E0124247A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95A4CBFD-B865-6EE3-C148-E4E73AED90AD" name="Shipment_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:18:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60EA1083-4EA0-D698-3E88-C99C74E3451C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D32AA62-475B-74DA-6B6E-9247FE1A6B0D" name="Shipment_Order_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:20:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A6C9CA-C8BD-018A-987C-B66B0287563D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

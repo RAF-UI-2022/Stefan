@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298BCD0C-9AC9-6F22-4F1F-7038ACC0B391" name="Product">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:14:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="58C43BE6-B742-18B3-B77E-82B9C056F1F6">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:15:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E96275E9-1DE9-4730-0C53-6099DC82E544">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:15:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="1C4A11DB-5BA6-D543-858B-E587A2E5C0DB">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:16:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="B8F70CE0-F072-FC8D-0AA2-A575C709E935">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:16:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductCategory_id" id="0BB016CF-3DD1-4299-C0EC-57851271E472">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:26:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A67E7E4-9E7A-4117-7C5C-2D1DE2B73A10" referredColumn="C59AB106-598E-8D23-828E-4CD8EE9D59F4"/>
+</associations>
+</Column>
+<Column name="Supplier_id" id="D0E56731-456E-8EAE-1B14-AB6A02A9215B">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:34:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE2922D3-C6C4-E1A0-9A13-4FA3CDD90682" referredColumn="6AF54482-47CB-2BCE-FB52-DB5C9857CE80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5EBBD0A-A997-40B9-BCAF-FEFE2AB5C963" name="Product_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:15:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB68BA18-642D-75C2-A7A7-99228DF25E4F" name="Product_ProductCategory_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:26:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BB016CF-3DD1-4299-C0EC-57851271E472"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F69D68D-A238-AE34-709F-760F0501F0B4" name="Product_Supplier_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:34:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0E56731-456E-8EAE-1B14-AB6A02A9215B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

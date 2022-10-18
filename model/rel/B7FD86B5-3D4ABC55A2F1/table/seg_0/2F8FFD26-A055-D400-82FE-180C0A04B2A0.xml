@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F8FFD26-A055-D400-82FE-180C0A04B2A0" name="ShipmentItem">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:22:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrderItem_id" id="BAA4DC1F-03B2-7B7B-556C-651AB1E913FA">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:23:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3F14CF5-53D3-57CD-F5BB-8A13341C8147" referredColumn="AFBCE8CC-E984-BE12-A4B4-43386A3A3618"/>
+</associations>
+</Column>
+<Column name="Shipment_id" id="13D20AD7-C677-8FC7-3F4B-126AEFECEAE5">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:23:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5136BA23-F2AB-6A13-B6EB-A8164852BB4E" referredColumn="60EA1083-4EA0-D698-3E88-C99C74E3451C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28EBCD06-7340-0B7C-54D6-F9926F298F91" name="ShipmentItem_OrderItem_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:23:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA4DC1F-03B2-7B7B-556C-651AB1E913FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="646DB36C-970B-0ABF-6C98-F1939B160043" name="ShipmentItem_Shipment_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 13:23:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D20AD7-C677-8FC7-3F4B-126AEFECEAE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

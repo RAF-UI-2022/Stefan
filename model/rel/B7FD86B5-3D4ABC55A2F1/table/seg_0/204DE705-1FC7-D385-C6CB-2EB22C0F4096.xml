@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="204DE705-1FC7-D385-C6CB-2EB22C0F4096" name="PricingHistory">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:27:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6C300465-C68B-5F51-811E-8CC4F13D91F4">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:28:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="1F3FE393-CF65-1889-9F44-96200399B829">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:28:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="started_at" id="4730B5E1-5DE7-BE8C-4279-23AB20BC5F30">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:28:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ended_at" id="CE042F9E-E849-81DC-B88B-E648AE5529C5">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:29:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_id" id="D4FB8EEF-7AB4-A69B-6B6C-960C482FE882">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:29:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97DAA893-3651-E68B-1098-E33ADBAAA170" referredColumn="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF040C85-1841-0342-399D-4630887A76B1" name="PricingHistory_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:28:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C300465-C68B-5F51-811E-8CC4F13D91F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7857BAC-DD24-A6A5-2F78-1FDE560DF50F" name="PricingHistory_Product_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-18 12:29:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4FB8EEF-7AB4-A69B-6B6C-960C482FE882"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
