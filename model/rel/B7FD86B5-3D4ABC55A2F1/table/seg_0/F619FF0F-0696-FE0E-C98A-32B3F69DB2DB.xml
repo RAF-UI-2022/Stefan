@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE28BF3C-6185-8D71-7AB5-F585C379AFD1" name="Zaposleni">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F619FF0F-0696-FE0E-C98A-32B3F69DB2DB" name="Dostavljac">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:38:22 UTC</createdTime>
+<createdTime>2022-10-25 17:58:27 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_47</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SklopljeniUgovori_id" id="F0DDC8DC-00D7-873A-9580-88903CA49954">
+<Column name="SklopljeniUgovori_id" id="CF3C4BF0-70AD-D955-8137-B969C4AB7FE2">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:59:09 UTC</createdTime>
+<createdTime>2022-10-25 19:03:06 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F32F96ED-06D0-28C7-CA34-F0F3B4F5141D" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
+<colAssociation fkAssociation="D7B7144E-D293-A734-30D2-A87745667B4B" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
 </associations>
 </Column>
-<Column name="TipZaposlenog_id" id="041B8112-E7C8-BC8B-A25A-C9951A67F6FB">
+<Column name="TipDostavljaca_id" id="19C9202A-52F9-4FE0-33B9-4B28821486D3">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:05:45 UTC</createdTime>
+<createdTime>2022-10-25 19:17:07 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,24 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A9B6A792-EC46-E09B-6683-138FA3899C9D" referredColumn="EE535674-1F5A-0450-7BD5-460BA43009A5"/>
+<colAssociation fkAssociation="DD8C1135-E32E-EE23-3C91-33642111999F" referredColumn="E21A34A8-827E-BDF3-4061-003759A70358"/>
 </associations>
 </Column>
-<Column name="prezime" id="67BAC83E-DAAC-798E-20AB-C40E14AF5099">
+<Column name="ime" id="FAEDD4F4-14F8-CAA6-C529-A68C0E480C0A">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:04:43 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="adresa" id="05AF08FC-4092-2CA2-37DE-B813FC512BCF">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:04:58 UTC</createdTime>
+<createdTime>2022-10-25 17:58:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,9 +48,20 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="broj" id="C9A06DB5-5E3D-582A-C235-3FB4EA297184">
+<Column name="broj" id="4BD5D939-B47E-C53C-8C7E-B074A00C9CF1">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:05:14 UTC</createdTime>
+<createdTime>2022-10-25 17:59:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="976A6548-2FD7-FE10-A80C-511E31080F41">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:59:39 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,35 +73,35 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E6A3AD4C-6BC7-F1CF-A3A6-D5CC190A7F54" name="Zaposleni_PK">
+<ind_PK_UK id="AAA23507-37DE-944D-5309-A76AAA96089E" name="Dostavljac_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:39:08 UTC</createdTime>
+<createdTime>2022-10-25 17:58:43 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0DDC8DC-00D7-873A-9580-88903CA49954"/>
+<colUsage columnID="CF3C4BF0-70AD-D955-8137-B969C4AB7FE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="17A97907-FC0C-27B8-3C85-6483483C207A" name="Z_SklopljeniUgovori_FK">
+<ind_PK_UK id="6EC5E003-F0AA-29DE-0655-9D8AFA06270F" name="D_SklopljeniUgovori_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:59:09 UTC</createdTime>
+<createdTime>2022-10-25 19:03:06 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0DDC8DC-00D7-873A-9580-88903CA49954"/>
+<colUsage columnID="CF3C4BF0-70AD-D955-8137-B969C4AB7FE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="95B3DB55-9B7E-F0E7-93E3-2F24E1E227FC" name="Z_TipZaposlenog_FK">
+<ind_PK_UK id="BD7FD3DC-8C8E-6D17-125B-134C3027FF37" name="D_TipDostavljaca_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:05:45 UTC</createdTime>
+<createdTime>2022-10-25 19:17:07 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="041B8112-E7C8-BC8B-A25A-C9951A67F6FB"/>
+<colUsage columnID="19C9202A-52F9-4FE0-33B9-4B28821486D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

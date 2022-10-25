@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="878E0A1A-6700-D2D7-B132-EA14C76DA92E" name="OdsustvoSaPosla">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:05:34 UTC</createdTime>
+<comment><![CDATA[Bolovanje
+Smrtni slucaj
+Vencanje
+Selidba]]></comment>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_72</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FEA2358F-369E-37A9-7933-592154EC0023">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:05:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_id" id="F98E68CE-49A7-8784-4AB6-740E3CAAB755">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:14:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65602353-D8E3-246D-BE9B-A948A50FAAEA" referredColumn="F0DDC8DC-00D7-873A-9580-88903CA49954"/>
+</associations>
+</Column>
+<Column name="TipOdsustva_id" id="28FBAC9D-BC88-5B77-C889-05318EB06DBD">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:13:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0653791-048D-8475-08AB-5AD28577501E" referredColumn="36B3ED89-1AB3-FA5C-A7A8-60BD178F25A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F49F8D67-DDFD-136A-D13B-01EF058F4BF0" name="OdsustvoSaPosla_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:05:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98E68CE-49A7-8784-4AB6-740E3CAAB755"/>
+<colUsage columnID="FEA2358F-369E-37A9-7933-592154EC0023"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C32F13D-A6D5-80F6-D2F3-33C6FCEE88FA" name="OSP_TipOdsustva_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:13:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FBAC9D-BC88-5B77-C889-05318EB06DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83CA8CF1-22B9-FC87-1955-5A4D470C9A44" name="OSP_Zaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:14:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98E68CE-49A7-8784-4AB6-740E3CAAB755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

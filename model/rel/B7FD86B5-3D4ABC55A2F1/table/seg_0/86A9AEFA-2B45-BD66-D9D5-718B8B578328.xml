@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86A9AEFA-2B45-BD66-D9D5-718B8B578328" name="IstorijaKupovine">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:22:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C9CC09BB-909A-9653-A5A0-DA5D1B9264B8">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:22:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OnlineKupac_id" id="791EC621-8C15-0343-0F92-D3CC34EA4A38">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:24:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD11543F-68EB-EA16-1938-5D70F7700D6F" referredColumn="DB01380D-72B2-E296-2DFF-D676EB529462"/>
+</associations>
+</Column>
+<Column name="IKStatusniKod_id" id="72262232-5AE1-0441-31DE-10DFD7A68CAE">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:28:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1C5DF72-6E31-CE99-FDAB-093E7DCD6E38" referredColumn="52CCDC40-2EA5-2C38-F0B0-2FCE38957D6D"/>
+</associations>
+</Column>
+<Column name="IsporukaPorucenihProizvoda_id" id="26F7B50B-01C7-AF55-1898-E80475DA89AE">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:57:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58D2743E-6AF4-6361-C460-8CEBCA34AE58" referredColumn="6E3CCDF0-ACA4-52D6-A887-FC4D7281F0E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C7414E0-1EC5-91E3-B74D-DEF2ADAE96FB" name="IstorijaKupovine_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:22:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9CC09BB-909A-9653-A5A0-DA5D1B9264B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="597F5154-CAF1-7580-3CB1-39243E1E8495" name="IK_OnlineKupac_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:24:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="791EC621-8C15-0343-0F92-D3CC34EA4A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B6FE18D-4F18-A19A-E8AD-D250AFFBBF72" name="IK_IKStatusniKod_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:28:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72262232-5AE1-0441-31DE-10DFD7A68CAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAA3138D-4E8F-FAA9-5541-7ECB833591B1" name="IK_IsporukaPorucenihProizvoda_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:57:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26F7B50B-01C7-AF55-1898-E80475DA89AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

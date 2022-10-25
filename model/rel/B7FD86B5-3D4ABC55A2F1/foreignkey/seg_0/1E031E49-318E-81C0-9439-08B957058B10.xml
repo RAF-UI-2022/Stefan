@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E031E49-318E-81C0-9439-08B957058B10" containerWithKeyObject="36CB1EF9-B400-D35F-2C92-DDE2157CAE64" localFKIndex="6026266F-0989-F811-8D7D-9D77BE25AB07" name="SUi_PravnoLice_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 19:12:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>PravnoLice</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1318A5AA-CB43-A6BC-DF54-5DD6063482FF</referredTableID>
+<keyObject>73536BBF-42E4-6961-8114-2C8887E8CC9B</keyObject>
+<referredKeyID>73536BBF-42E4-6961-8114-2C8887E8CC9B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

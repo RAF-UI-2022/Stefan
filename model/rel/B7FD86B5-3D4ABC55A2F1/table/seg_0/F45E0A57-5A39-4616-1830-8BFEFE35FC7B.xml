@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DED0DA3-B249-79FC-6797-749EE5266422" name="TipUgovora">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F45E0A57-5A39-4616-1830-8BFEFE35FC7B" name="TipPravnogLica">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:44:26 UTC</createdTime>
+<createdTime>2022-10-25 20:38:32 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_20</ordsAlias>
+<ordsAlias>table_81</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="194C4D43-09E2-63A5-8D8B-B6CAE8B06C94">
+<Column name="id" id="74AC220C-63C9-F2F7-3C8C-C974DB9CB337">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:44:50 UTC</createdTime>
+<createdTime>2022-10-25 20:38:52 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="26EEEF98-8117-EEA5-7A5C-3C121829FF86">
+<Column name="opis" id="5E22F425-86E1-F6A1-712E-B2114CD8FBF7">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:43:14 UTC</createdTime>
+<createdTime>2022-10-25 20:39:12 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5A4BED19-619C-C259-7019-BFC736D95AC8" name="TipUgovora_PK">
+<ind_PK_UK id="049F85B4-5496-9493-81A7-53E54DD759BD" name="TipPravnogLica_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:44:50 UTC</createdTime>
+<createdTime>2022-10-25 20:38:52 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="194C4D43-09E2-63A5-8D8B-B6CAE8B06C94"/>
+<colUsage columnID="74AC220C-63C9-F2F7-3C8C-C974DB9CB337"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

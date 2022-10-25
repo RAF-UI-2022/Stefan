@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1DB8A0C-A2BA-5C5A-ABB6-F8A954E0D70A" name="Magacin">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:01:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_70</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B97E9B63-7343-898E-EA4D-07FD793BA1BB">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:02:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="204D0287-7B7E-644B-1F11-4A30E43B46CE" name="Magacin_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:02:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97E9B63-7343-898E-EA4D-07FD793BA1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

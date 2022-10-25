@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C95EB59F-C804-60C0-D3BE-98D53B5DBC9C" name="Supplier">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C95EB59F-C804-60C0-D3BE-98D53B5DBC9C" name="Dobavljac">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:31:05 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -8,17 +8,21 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="6AF54482-47CB-2BCE-FB52-DB5C9857CE80">
+<Column name="SklopljeniUgovori_id" id="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:31:34 UTC</createdTime>
+<createdTime>2022-10-25 19:07:44 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FA203DF-3D2B-2BA5-AB04-18F89B689FE1" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
+</associations>
 </Column>
-<Column name="name" id="B067AF5E-DEF4-85CC-1AD4-CD0BE8CB19FB">
+<Column name="ime" id="B067AF5E-DEF4-85CC-1AD4-CD0BE8CB19FB">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:31:58 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -30,7 +34,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="description" id="08DDCDA8-E824-E816-741B-BE0081623743">
+<Column name="opis" id="08DDCDA8-E824-E816-741B-BE0081623743">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:32:19 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -42,7 +46,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="city" id="AE8E7B7E-0ADF-7C0E-2FDA-357124C6A282">
+<Column name="grad" id="AE8E7B7E-0ADF-7C0E-2FDA-357124C6A282">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:33:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -54,7 +58,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="postal_code" id="CD7573EB-8B0B-09E6-3F20-D889F3F8920D">
+<Column name="postanski_kod" id="CD7573EB-8B0B-09E6-3F20-D889F3F8920D">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:34:03 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -66,7 +70,7 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="street" id="2752615D-9A94-A32C-AB5F-C54D60331504">
+<Column name="ulica" id="2752615D-9A94-A32C-AB5F-C54D60331504">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:34:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -80,7 +84,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8C5556D9-532D-FCB4-B62B-EC5248608244" name="Supplier_PK">
+<ind_PK_UK id="8C5556D9-532D-FCB4-B62B-EC5248608244" name="Dobavljac_PK">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:31:34 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -88,7 +92,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6AF54482-47CB-2BCE-FB52-DB5C9857CE80"/>
+<colUsage columnID="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F0F5D99-B717-3E40-EDA7-ED024A9DAB61" name="D_SklopljeniUgovori_FKv2">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 19:07:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

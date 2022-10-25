@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCC6F830-BBB5-7797-7966-81563F58989D" containerWithKeyObject="9731A27E-1E86-28E3-9727-567FDE86D21F" localFKIndex="A1067BEC-C582-D569-9A88-7D4AEDEC4B08" name="P_Sirovina_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:28:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Sirovina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F510E4B8-57F8-74A0-3A3E-2786F7FCE370</referredTableID>
+<keyObject>098140F7-12F2-B892-0143-9070F30A3680</keyObject>
+<referredKeyID>098140F7-12F2-B892-0143-9070F30A3680</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C7FF8A3-9D15-48FA-ACD2-BA78F2293EDE" name="Lokal">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:08:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SklopljeniUgovori_id" id="CA183FF5-D317-340A-0DE7-9B6568E949C4">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 19:01:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECB36F6C-90D9-DBAA-2256-C4AB4F09AB07" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
+</associations>
+</Column>
+<Column name="adresa" id="18D8EC63-491C-6AC4-55E3-25AAB79CB18D">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:08:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="EB581C92-98F0-2780-F698-75A53E04F30E">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:09:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEA78141-0CE9-F21C-82B3-D5FBCFFC9B28" name="Lokal_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:08:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA183FF5-D317-340A-0DE7-9B6568E949C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBAE8C7F-0EB7-F134-3345-83B94EE166A3" name="L_SklopljeniUgovori_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 19:01:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA183FF5-D317-340A-0DE7-9B6568E949C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

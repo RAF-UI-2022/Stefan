@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509AC5D8-64DA-3D15-2E15-ABF9A54FF18A" name="Istorija ugovora">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E12E702-2611-A9F3-487F-380F0B686C66" name="Proizvodnja">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:42:50 UTC</createdTime>
+<createdTime>2022-10-25 19:57:32 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_19</ordsAlias>
+<ordsAlias>table_64</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="1AB6E7FC-B7FB-FAEF-7C6D-7F7B47DA5DD5">
+<Column name="id" id="12C94A4F-2B4A-E576-2923-BD4AE0B1D6D8">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:43:15 UTC</createdTime>
+<createdTime>2022-10-25 19:59:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,41 +18,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SklopljeniUgovori_id" id="968C1208-E631-6C98-ED52-9718D175B238">
+<Column name="Firma_ime" id="4099D7A0-7FA6-0C60-10DE-245FAF68CC98">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:53:57 UTC</createdTime>
+<createdTime>2022-10-25 20:26:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CF7A0452-1487-1592-7D3D-1B6BBD428E4E" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
+<colAssociation fkAssociation="2DE24E52-5B71-7A8E-B292-D38B88E0F0E2" referredColumn="CFDE42EB-4647-5671-70F9-7637A44AE90D"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="47985A47-2B6B-C7B3-75B7-EE5ADBFF7E80" name="Istorija ugovora_PK">
+<ind_PK_UK id="20104639-98D2-68EF-A5AD-E79788DAF424" name="Proizvodnja_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:43:15 UTC</createdTime>
+<createdTime>2022-10-25 19:59:43 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1AB6E7FC-B7FB-FAEF-7C6D-7F7B47DA5DD5"/>
+<colUsage columnID="12C94A4F-2B4A-E576-2923-BD4AE0B1D6D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44CD38FD-0C71-8DEE-8F4C-E9D812CF919E" name="I_SklopljeniUgovori_FK">
+<ind_PK_UK id="C7E0B8F5-3C23-5B0F-E391-11A6D8295CDD" name="P_Firma_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:53:57 UTC</createdTime>
+<createdTime>2022-10-25 20:26:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="968C1208-E631-6C98-ED52-9718D175B238"/>
+<colUsage columnID="4099D7A0-7FA6-0C60-10DE-245FAF68CC98"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

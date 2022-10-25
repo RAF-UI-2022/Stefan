@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8EE9465-1F4B-A1B7-5F69-E0F78392A9DC" name="TipObuke">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:10:40 UTC</createdTime>
+<comment><![CDATA[Npr rad na odredjenoj masini
+Tehnike prodaje
+Obuke za vozaca itd]]></comment>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_79</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="86FAF0C9-B5F4-AEA8-4DE8-B9BCF3A23FFE">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:11:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE690325-F8D2-220C-EEE9-97CA9F3BC01D" name="TipObuke_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:11:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86FAF0C9-B5F4-AEA8-4DE8-B9BCF3A23FFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

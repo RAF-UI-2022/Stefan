@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F19E02-33E1-E1AC-03DF-27DDBE4C598A" name="SifreIstorija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="092D8736-8D1D-57CB-0840-04A18C2A4BC9" name="Porudzbina">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:01:18 UTC</createdTime>
+<createdTime>2022-10-25 17:50:19 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_2</ordsAlias>
+<ordsAlias>table_44</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="6D241B3D-F5C7-E563-8413-369C9B1D53BD">
+<Column name="id" id="F0F57CBC-94E2-F004-E76F-AB063E8AED11">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<createdTime>2022-10-25 17:50:45 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,32 +18,32 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hash_sifra" id="DC7F333F-3F0D-06F6-7C41-E8084F58BA1E">
+<Column name="komentar" id="7037A929-2AB1-4355-9118-EA3596E15844">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:05:06 UTC</createdTime>
+<createdTime>2022-10-25 17:53:08 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="promenjena_sifra" id="A6EEF41F-3C39-7D17-9E09-73762B3D937F">
+<Column name="ukupna_cena" id="8CC79D6F-DABA-3E46-9A84-49D42D4067B4">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:06:12 UTC</createdTime>
+<createdTime>2022-10-25 18:01:48 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OnlineKupac_id" id="E7EED1B2-8EF5-9B50-79DD-C2C23905B71D">
+<Column name="OnlineKorpa_id" id="592CA5B4-F412-34AB-92CE-5072AE10E8EF">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 16:48:41 UTC</createdTime>
+<createdTime>2022-10-25 18:21:39 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,30 +52,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A85E7D1C-C729-B62E-ADA2-E20258B461F1" referredColumn="DB01380D-72B2-E296-2DFF-D676EB529462"/>
+<colAssociation fkAssociation="B04F78D2-92D6-7CA9-C605-16BBDF97E708" referredColumn="2B535EFF-976B-EDB6-4E3D-D241659A6CE4"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C8CAA05-DB26-33D8-4835-7A745FEB096A" name="SifreIstorija_PK">
+<ind_PK_UK id="C8CC1720-F147-DC2A-F4D1-CF92D156CB6F" name="Porudzbina_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<createdTime>2022-10-25 17:50:45 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D241B3D-F5C7-E563-8413-369C9B1D53BD"/>
+<colUsage columnID="F0F57CBC-94E2-F004-E76F-AB063E8AED11"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA398167-15F8-48D4-7C22-158A48E0F713" name="OnlineKupac_FK">
+<ind_PK_UK id="030058A7-EBC6-59EA-0D77-7BC4D5222A1D" name="P_OnlineKorpa_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 16:48:41 UTC</createdTime>
+<createdTime>2022-10-25 17:53:35 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E7EED1B2-8EF5-9B50-79DD-C2C23905B71D"/>
+<colUsage columnID="592CA5B4-F412-34AB-92CE-5072AE10E8EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

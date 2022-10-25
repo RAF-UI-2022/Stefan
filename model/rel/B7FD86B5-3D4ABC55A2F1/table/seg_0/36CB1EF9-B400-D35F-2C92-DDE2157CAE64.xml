@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36CB1EF9-B400-D35F-2C92-DDE2157CAE64" name="SklopljeniUgovori">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:11:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:12:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazi_od" id="6E84C2F1-32AD-EFDA-3E15-4C10725E7AE6">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:12:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazi_do" id="B08C3BDF-7E83-5715-8E9F-A670CF20A08F">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:12:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentar" id="11F52E2D-BE68-2A10-1271-1B49A0DCA13A">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:12:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma_ime" id="746A9CA4-3E03-EF6E-3954-3F30D2EBDAC5">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:32:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67A3F8E5-665B-3EEC-FA71-5AAFC0607610" referredColumn="CFDE42EB-4647-5671-70F9-7637A44AE90D"/>
+</associations>
+</Column>
+<Column name="TipUgovora_id" id="6BBC9B14-4DC6-3793-3FE6-573055DB360C">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:42:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E98F591-5405-6D7C-9D6E-ACFD68646FDA" referredColumn="194C4D43-09E2-63A5-8D8B-B6CAE8B06C94"/>
+</associations>
+</Column>
+<Column name="PravnoLice_id" id="E3EDD428-B62B-C84D-5B8D-7052CF46440C">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 19:12:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E031E49-318E-81C0-9439-08B957058B10" referredColumn="75A39D1E-5547-71C6-1870-B281D8D77C1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7B369E1-FF1E-F582-1EB2-A64953491099" name="SklopljeniUgovori_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:12:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B0FA7D4-672A-A275-669C-E2C935AB6FDE" name="SUi_Firma_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:32:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746A9CA4-3E03-EF6E-3954-3F30D2EBDAC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29D48690-CF75-1F40-405B-2D2A099868F2" name="SU_TipUgovora_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:42:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BBC9B14-4DC6-3793-3FE6-573055DB360C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6026266F-0989-F811-8D7D-9D77BE25AB07" name="SUi_PravnoLice_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 19:12:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EDD428-B62B-C84D-5B8D-7052CF46440C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

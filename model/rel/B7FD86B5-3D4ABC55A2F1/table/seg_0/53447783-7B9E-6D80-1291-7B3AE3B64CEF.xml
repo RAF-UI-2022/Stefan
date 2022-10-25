@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53447783-7B9E-6D80-1291-7B3AE3B64CEF" name="Customer">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53447783-7B9E-6D80-1291-7B3AE3B64CEF" name="OnlineKupac">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 11:57:08 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="first_name" id="4FBEB4A3-C3FD-4235-C97E-701CF7BD59B3">
+<Column name="ime" id="4FBEB4A3-C3FD-4235-C97E-701CF7BD59B3">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 11:58:53 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="last_name" id="D63C056F-1E51-185A-9ED2-9F6226959A46">
+<Column name="prezime" id="D63C056F-1E51-185A-9ED2-9F6226959A46">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 11:59:46 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -42,7 +42,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email_address" id="34DE6555-0B5B-4112-39C8-DB8F0F090D1B">
+<Column name="email_adresa" id="34DE6555-0B5B-4112-39C8-DB8F0F090D1B">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:00:28 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -54,7 +54,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="created_at" id="90E951B5-06D1-6D67-2077-824B5473D948">
+<Column name="kreiran_u" id="90E951B5-06D1-6D67-2077-824B5473D948">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:01:02 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -67,7 +67,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5D47DA7C-A2EA-C003-3025-CF216C41F3C7" name="Customer_PK">
+<ind_PK_UK id="5D47DA7C-A2EA-C003-3025-CF216C41F3C7" name="OnlineKupac_PK">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 11:58:08 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>

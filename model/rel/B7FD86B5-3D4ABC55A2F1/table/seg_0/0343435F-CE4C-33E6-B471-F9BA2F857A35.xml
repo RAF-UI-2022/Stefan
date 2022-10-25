@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F19E02-33E1-E1AC-03DF-27DDBE4C598A" name="SifreIstorija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0343435F-CE4C-33E6-B471-F9BA2F857A35" name="Obuke">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:01:18 UTC</createdTime>
+<createdTime>2022-10-25 20:10:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_2</ordsAlias>
+<ordsAlias>table_78</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="6D241B3D-F5C7-E563-8413-369C9B1D53BD">
+<Column name="id" id="C979E054-112C-720A-655F-FC3C29A362B0">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<createdTime>2022-10-25 20:10:31 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,32 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hash_sifra" id="DC7F333F-3F0D-06F6-7C41-E8084F58BA1E">
+<Column name="Zaposleni_id" id="3040019E-8C2B-2DF8-89F2-6B62602BEA91">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:05:06 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="promenjena_sifra" id="A6EEF41F-3C39-7D17-9E09-73762B3D937F">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:06:12 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="OnlineKupac_id" id="E7EED1B2-8EF5-9B50-79DD-C2C23905B71D">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 16:48:41 UTC</createdTime>
+<createdTime>2022-10-25 20:32:04 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,30 +29,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A85E7D1C-C729-B62E-ADA2-E20258B461F1" referredColumn="DB01380D-72B2-E296-2DFF-D676EB529462"/>
+<colAssociation fkAssociation="F779E9D2-9853-D2E2-5C24-E00519EEF3C5" referredColumn="F0DDC8DC-00D7-873A-9580-88903CA49954"/>
+</associations>
+</Column>
+<Column name="TipObuke_id" id="08C055A9-FE0B-2B37-445F-1C2D87F2531D">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:32:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D566CBD3-E310-FB09-76C9-E5144FA45680" referredColumn="86FAF0C9-B5F4-AEA8-4DE8-B9BCF3A23FFE"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C8CAA05-DB26-33D8-4835-7A745FEB096A" name="SifreIstorija_PK">
+<ind_PK_UK id="74AFF684-D0F4-8619-AFC5-756B75765C1D" name="Obuke_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<createdTime>2022-10-25 20:10:31 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D241B3D-F5C7-E563-8413-369C9B1D53BD"/>
+<colUsage columnID="C979E054-112C-720A-655F-FC3C29A362B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA398167-15F8-48D4-7C22-158A48E0F713" name="OnlineKupac_FK">
+<ind_PK_UK id="E066254A-0A8E-2E8E-B9C6-99819EDF521E" name="O_Zaposleni_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 16:48:41 UTC</createdTime>
+<createdTime>2022-10-25 20:32:04 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E7EED1B2-8EF5-9B50-79DD-C2C23905B71D"/>
+<colUsage columnID="3040019E-8C2B-2DF8-89F2-6B62602BEA91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0102FA7-1479-A02C-7992-ABE3F63CD702" name="O_TipObuke_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:32:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08C055A9-FE0B-2B37-445F-1C2D87F2531D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

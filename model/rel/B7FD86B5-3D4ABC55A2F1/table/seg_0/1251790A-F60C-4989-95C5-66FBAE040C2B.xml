@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1251790A-F60C-4989-95C5-66FBAE040C2B" name="TipoviOdsustva">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:06:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3FC30D76-6A9D-FFA3-AADA-3A7DD48158BB">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:06:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE65F636-1AC9-EB2F-6937-FF5D0BF27FE7" name="TipoviOdsustva_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:06:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC30D76-6A9D-FFA3-AADA-3A7DD48158BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

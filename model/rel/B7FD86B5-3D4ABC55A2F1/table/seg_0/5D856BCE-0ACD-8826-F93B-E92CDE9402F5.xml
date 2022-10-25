@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D856BCE-0ACD-8826-F93B-E92CDE9402F5" name="OdabraniProizvod">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:24:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OnlineProizvod_id" id="D186A5AB-8D39-B2E6-5ED2-8E0F59D4AFAD">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:25:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B5BF869-E031-19EF-577E-884B2897090F" referredColumn="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="897493AD-A1B4-7F3D-37B4-471720B9AB64" name="OdabraniProizvod_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:24:23 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D186A5AB-8D39-B2E6-5ED2-8E0F59D4AFAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F2958A8-176E-CF3B-D90E-E86B4ACCCA26" name="OP_OnlineProizvod_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 18:25:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D186A5AB-8D39-B2E6-5ED2-8E0F59D4AFAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

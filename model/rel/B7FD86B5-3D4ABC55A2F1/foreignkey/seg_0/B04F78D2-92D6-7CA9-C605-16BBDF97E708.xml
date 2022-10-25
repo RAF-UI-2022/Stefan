@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B04F78D2-92D6-7CA9-C605-16BBDF97E708" containerWithKeyObject="092D8736-8D1D-57CB-0840-04A18C2A4BC9" localFKIndex="030058A7-EBC6-59EA-0D77-7BC4D5222A1D" name="P_OnlineKorpa_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 17:53:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>OnlineKorpa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECFCFEC5-A948-5B14-2AD2-BA6350509083</referredTableID>
+<keyObject>4C78DF05-5E5F-2546-6891-D03AC5BEA926</keyObject>
+<referredKeyID>4C78DF05-5E5F-2546-6891-D03AC5BEA926</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

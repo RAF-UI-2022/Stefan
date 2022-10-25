@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B2D7CBC-D0B6-4167-0459-E8D173D15712" containerWithKeyObject="56ED936D-3FFD-4807-9F55-D8842DB7F2BF" localFKIndex="B5A5D38B-DB1E-DC98-058E-7E91EEE29239" name="O_Lokal_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:43:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Lokal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C7FF8A3-9D15-48FA-ACD2-BA78F2293EDE</referredTableID>
+<keyObject>EEA78141-0CE9-F21C-82B3-D5FBCFFC9B28</keyObject>
+<referredKeyID>EEA78141-0CE9-F21C-82B3-D5FBCFFC9B28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SklopljeniUgovori_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

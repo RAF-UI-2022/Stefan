@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F19E02-33E1-E1AC-03DF-27DDBE4C598A" name="SifreIstorija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1318A5AA-CB43-A6BC-DF54-5DD6063482FF" name="PravnoLice">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:01:18 UTC</createdTime>
+<createdTime>2022-10-25 19:11:36 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_2</ordsAlias>
+<ordsAlias>table_62</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="6D241B3D-F5C7-E563-8413-369C9B1D53BD">
+<Column name="id" id="75A39D1E-5547-71C6-1870-B281D8D77C1A">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<createdTime>2022-10-25 19:12:27 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,32 +18,45 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hash_sifra" id="DC7F333F-3F0D-06F6-7C41-E8084F58BA1E">
+<Column name="ime" id="4F9B81EB-F0BA-18E4-2A32-919301D08350">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:05:06 UTC</createdTime>
+<createdTime>2022-10-25 19:12:27 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="promenjena_sifra" id="A6EEF41F-3C39-7D17-9E09-73762B3D937F">
+<Column name="prezime" id="5D19F571-5728-56D8-BEF2-C6CB8086210D">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:06:12 UTC</createdTime>
+<createdTime>2022-10-25 19:12:27 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OnlineKupac_id" id="E7EED1B2-8EF5-9B50-79DD-C2C23905B71D">
+<Column name="opis" id="F82BA9C9-D8AE-4C7E-EC14-AED304E4D6A2">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 16:48:41 UTC</createdTime>
+<createdTime>2022-10-25 19:12:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipPravnogLica_id" id="DDA54E4C-6006-FB29-2144-27B1BA7C0AE3">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 20:39:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,30 +65,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A85E7D1C-C729-B62E-ADA2-E20258B461F1" referredColumn="DB01380D-72B2-E296-2DFF-D676EB529462"/>
+<colAssociation fkAssociation="F0983859-FA2A-EE7C-88F0-148332A097A6" referredColumn="74AC220C-63C9-F2F7-3C8C-C974DB9CB337"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C8CAA05-DB26-33D8-4835-7A745FEB096A" name="SifreIstorija_PK">
+<ind_PK_UK id="73536BBF-42E4-6961-8114-2C8887E8CC9B" name="PravnoLice_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:02:05 UTC</createdTime>
+<createdTime>2022-10-25 19:12:27 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D241B3D-F5C7-E563-8413-369C9B1D53BD"/>
+<colUsage columnID="75A39D1E-5547-71C6-1870-B281D8D77C1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA398167-15F8-48D4-7C22-158A48E0F713" name="OnlineKupac_FK">
+<ind_PK_UK id="0C3CE539-1ED9-FA54-D9D8-9782D1B6D929" name="PL_TipPravnogLica_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 16:48:41 UTC</createdTime>
+<createdTime>2022-10-25 20:39:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E7EED1B2-8EF5-9B50-79DD-C2C23905B71D"/>
+<colUsage columnID="DDA54E4C-6006-FB29-2144-27B1BA7C0AE3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

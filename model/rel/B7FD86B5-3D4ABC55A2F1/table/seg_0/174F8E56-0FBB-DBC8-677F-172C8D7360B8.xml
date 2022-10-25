@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DED0DA3-B249-79FC-6797-749EE5266422" name="TipUgovora">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="174F8E56-0FBB-DBC8-677F-172C8D7360B8" name="TipDelatnosti">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:44:26 UTC</createdTime>
+<createdTime>2022-10-25 20:45:12 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_20</ordsAlias>
+<ordsAlias>table_83</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="194C4D43-09E2-63A5-8D8B-B6CAE8B06C94">
+<Column name="id" id="0ECEF8F0-079F-5AA1-6AAB-9721BD275D25">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:44:50 UTC</createdTime>
+<createdTime>2022-10-25 20:45:30 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,11 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="26EEEF98-8117-EEA5-7A5C-3C121829FF86">
+<Column name="opis" id="7E3C2E3D-5252-B2CD-AE04-67F6C9E0DB83">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:43:14 UTC</createdTime>
+<createdTime>2022-10-25 20:45:47 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -32,15 +31,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5A4BED19-619C-C259-7019-BFC736D95AC8" name="TipUgovora_PK">
+<ind_PK_UK id="379097D6-B750-32A3-9FE3-F198A395637A" name="TipDelatnosti_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:44:50 UTC</createdTime>
+<createdTime>2022-10-25 20:45:30 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="194C4D43-09E2-63A5-8D8B-B6CAE8B06C94"/>
+<colUsage columnID="0ECEF8F0-079F-5AA1-6AAB-9721BD275D25"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
