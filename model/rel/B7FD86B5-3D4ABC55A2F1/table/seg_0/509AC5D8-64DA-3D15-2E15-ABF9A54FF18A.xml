@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509AC5D8-64DA-3D15-2E15-ABF9A54FF18A" name="Istorija ugovora">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 12:42:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1AB6E7FC-B7FB-FAEF-7C6D-7F7B47DA5DD5">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 12:43:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47985A47-2B6B-C7B3-75B7-EE5ADBFF7E80" name="Istorija ugovora_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-10-25 12:43:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AB6E7FC-B7FB-FAEF-7C6D-7F7B47DA5DD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
