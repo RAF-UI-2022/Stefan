@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D1F31AF-F40E-D834-0CF8-33E4B4F380E9" name="Sektori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19A51399-FE4E-CC73-5E4E-7E0687050EF8" name="PodkategorijaProizvoda2">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:48:05 UTC</createdTime>
+<createdTime>2022-11-02 15:12:52 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_84</ordsAlias>
+<ordsAlias>table_43</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="9F67734F-931A-23FB-5E2F-037632AC4210">
+<Column name="id" id="BBE95F6D-F25A-587B-2854-52A442187510">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:48:22 UTC</createdTime>
+<createdTime>2022-11-02 15:14:51 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,42 +18,53 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Firma_ime" id="E6BA68A3-B721-5DFB-8391-98180F8A99E8">
+<Column name="name" id="5C8A0E71-A4A0-9313-148E-CBDF2F0CCE61">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:48:38 UTC</createdTime>
+<createdTime>2022-11-02 15:15:07 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PodkategorijaProizvoda1_id" id="D6C4DF14-BA13-00A2-4DA9-43E6FA0DE876">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-02 15:15:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CCF6556A-A7DE-4941-19C1-0596DB829729" referredColumn="CFDE42EB-4647-5671-70F9-7637A44AE90D"/>
+<colAssociation fkAssociation="B596F778-ECE1-D61E-CC1D-FD779AF196CC" referredColumn="928CD4C6-F018-5050-D124-C534E08AF9B2"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2820B36F-9AF8-E011-B992-1F4D2026C57F" name="Sektori_PK">
+<ind_PK_UK id="BBA1AFA2-484C-5F65-EA60-55906B1F7706" name="PodkategorijaProizvoda2_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:48:22 UTC</createdTime>
+<createdTime>2022-11-02 15:14:51 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9F67734F-931A-23FB-5E2F-037632AC4210"/>
+<colUsage columnID="BBE95F6D-F25A-587B-2854-52A442187510"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D3578333-9CA4-986C-C5E0-1551774970E6" name="S_Firma_FK">
+<ind_PK_UK id="76573DEC-7BFE-5011-D8DC-946679E9AD17" name="PodkategorijaProizvoda2_PodkategorijaProizvoda1_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:48:38 UTC</createdTime>
+<createdTime>2022-11-02 15:15:13 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6BA68A3-B721-5DFB-8391-98180F8A99E8"/>
+<colUsage columnID="D6C4DF14-BA13-00A2-4DA9-43E6FA0DE876"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

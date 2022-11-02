@@ -46,9 +46,9 @@
 <colAssociation fkAssociation="E1C5DF72-6E31-CE99-FDAB-093E7DCD6E38" referredColumn="52CCDC40-2EA5-2C38-F0B0-2FCE38957D6D"/>
 </associations>
 </Column>
-<Column name="IsporukaPorucenihProizvoda_id" id="26F7B50B-01C7-AF55-1898-E80475DA89AE">
+<Column name="Porudzbina_id" id="52289D3D-EF0C-A52A-6CAF-1209794FB4BD">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 17:57:15 UTC</createdTime>
+<createdTime>2022-11-02 15:23:50 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="58D2743E-6AF4-6361-C460-8CEBCA34AE58" referredColumn="6E3CCDF0-ACA4-52D6-A887-FC4D7281F0E8"/>
+<colAssociation fkAssociation="6B0AAB0C-2FB2-B1C0-7B9A-7CEA4D3CA5D8" referredColumn="F0F57CBC-94E2-F004-E76F-AB063E8AED11"/>
 </associations>
 </Column>
 </columns>
@@ -93,14 +93,14 @@
 <colUsage columnID="72262232-5AE1-0441-31DE-10DFD7A68CAE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AAA3138D-4E8F-FAA9-5541-7ECB833591B1" name="IK_IsporukaPorucenihProizvoda_FK">
+<ind_PK_UK id="DE4B51D2-3959-951F-E27D-6B59E560448E" name="IstorijaKupovine_Porudzbina_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 17:57:15 UTC</createdTime>
+<createdTime>2022-11-02 15:23:50 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="26F7B50B-01C7-AF55-1898-E80475DA89AE"/>
+<colUsage columnID="52289D3D-EF0C-A52A-6CAF-1209794FB4BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

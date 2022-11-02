@@ -41,9 +41,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OnlineKorpa_id" id="592CA5B4-F412-34AB-92CE-5072AE10E8EF">
+<Column name="OnlineProizvod_id" id="DE7CD64A-A111-24D9-B94A-D8921071ECF2">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:21:39 UTC</createdTime>
+<createdTime>2022-11-02 15:11:17 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,7 +52,35 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B04F78D2-92D6-7CA9-C605-16BBDF97E708" referredColumn="2B535EFF-976B-EDB6-4E3D-D241659A6CE4"/>
+<colAssociation fkAssociation="89276410-5700-3808-0F0D-DAC3FA90B5E2" referredColumn="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
+</associations>
+</Column>
+<Column name="Lokal_SklopljeniUgovori_id" id="D3F95DE7-1B14-755F-C96B-CDE264558B3B">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-02 15:11:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EF2DC3E-5DEA-0759-694B-86FA5A6CEFE2" referredColumn="CA183FF5-D317-340A-0DE7-9B6568E949C4"/>
+</associations>
+</Column>
+<Column name="Dostavljac_SklopljeniUgovori_id" id="86A6C344-0E84-4455-BF5E-86B18565F244">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-02 15:11:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B6BF420-5DDE-3D9A-9B36-65E0FD7AD5E7" referredColumn="CF3C4BF0-70AD-D955-8137-B969C4AB7FE2"/>
 </associations>
 </Column>
 </columns>
@@ -68,14 +96,34 @@
 <colUsage columnID="F0F57CBC-94E2-F004-E76F-AB063E8AED11"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="030058A7-EBC6-59EA-0D77-7BC4D5222A1D" name="P_OnlineKorpa_FK">
+<ind_PK_UK id="F68C37F0-3F02-1345-D07B-5D17E954A53A" name="Porudzbina_OnlineProizvod_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 17:53:35 UTC</createdTime>
+<createdTime>2022-11-02 15:11:17 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="592CA5B4-F412-34AB-92CE-5072AE10E8EF"/>
+<colUsage columnID="DE7CD64A-A111-24D9-B94A-D8921071ECF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B383CCE-836E-846D-1F53-0E7B5091BBB9" name="Porudzbina_Lokal_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-02 15:11:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3F95DE7-1B14-755F-C96B-CDE264558B3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97966378-5FAD-5B0B-B816-3459B6A4435A" name="Porudzbina_Dostavljac_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-02 15:11:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A6C344-0E84-4455-BF5E-86B18565F244"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

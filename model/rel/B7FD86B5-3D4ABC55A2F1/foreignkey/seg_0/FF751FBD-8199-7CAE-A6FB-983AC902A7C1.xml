@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="548A43FC-8D8C-B2AB-3765-73B14F6ECDE6" containerWithKeyObject="A6C2EE61-A7F7-F7E1-47D4-D79A2324E617" localFKIndex="5C3D4A92-96C0-FB88-B8F8-3F5F601F1030" name="KP_KategorijaProizvoda_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF751FBD-8199-7CAE-A6FB-983AC902A7C1" containerWithKeyObject="D261E25C-0EB2-CF2A-6DFD-0C56E3FAFBD9" localFKIndex="5484EA40-F624-6B8A-72F7-DB4943240DDE" name="PodkategorijaProizvoda1_KategorijaProizvoda_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 17:08:38 UTC</createdTime>
+<createdTime>2022-11-02 15:14:11 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <referredTableLongName>KategorijaProizvoda</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>A6C2EE61-A7F7-F7E1-47D4-D79A2324E617</referredTableID>
 <keyObject>D89B86F7-3144-FDDC-FAB1-5EE3EA3F2C84</keyObject>
 <referredKeyID>D89B86F7-3144-FDDC-FAB1-5EE3EA3F2C84</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

@@ -42,21 +42,6 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KategorijaProizvoda_id" id="EF72B73D-D9AD-16F4-1782-75ECE889EFA5">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 17:08:38 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="548A43FC-8D8C-B2AB-3765-73B14F6ECDE6" referredColumn="C59AB106-598E-8D23-828E-4CD8EE9D59F4"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D89B86F7-3144-FDDC-FAB1-5EE3EA3F2C84" name="KategorijaProizvoda_PK">
@@ -68,16 +53,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C59AB106-598E-8D23-828E-4CD8EE9D59F4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5C3D4A92-96C0-FB88-B8F8-3F5F601F1030" name="KP_KategorijaProizvoda_FK">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 17:08:38 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="EF72B73D-D9AD-16F4-1782-75ECE889EFA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

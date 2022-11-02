@@ -60,12 +60,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="67A3F8E5-665B-3EEC-FA71-5AAFC0607610" referredColumn="CFDE42EB-4647-5671-70F9-7637A44AE90D"/>
-</associations>
 </Column>
 <Column name="TipUgovora_id" id="6BBC9B14-4DC6-3793-3FE6-573055DB360C">
 <createdBy>HP</createdBy>
@@ -106,16 +103,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4B0FA7D4-672A-A275-669C-E2C935AB6FDE" name="SUi_Firma_FK">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:32:08 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="746A9CA4-3E03-EF6E-3954-3F30D2EBDAC5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="29D48690-CF75-1F40-405B-2D2A099868F2" name="SU_TipUgovora_FK">
