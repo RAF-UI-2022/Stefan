@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E98F591-5405-6D7C-9D6E-ACFD68646FDA" containerWithKeyObject="36CB1EF9-B400-D35F-2C92-DDE2157CAE64" localFKIndex="29D48690-CF75-1F40-405B-2D2A099868F2" name="SU_TipUgovora_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="347EA267-691F-CC90-1E15-BDEE424B4247" containerWithKeyObject="6AC09140-07E9-0CB1-5172-9CA41532CDF7" localFKIndex="E3C01D55-47DC-0B6F-4E76-0EE797E05A47" name="Ugovor_TipUgovora_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:42:33 UTC</createdTime>
+<createdTime>2022-11-16 13:16:14 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <referredTableLongName>TipUgovora</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

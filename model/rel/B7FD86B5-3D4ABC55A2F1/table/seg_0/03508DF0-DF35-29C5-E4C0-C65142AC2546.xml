@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0343435F-CE4C-33E6-B471-F9BA2F857A35" name="Obuke">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03508DF0-DF35-29C5-E4C0-C65142AC2546" name="UskladisteniProizvodi">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:10:15 UTC</createdTime>
+<createdTime>2022-11-16 14:09:29 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_78</ordsAlias>
+<ordsAlias>table_43</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="C979E054-112C-720A-655F-FC3C29A362B0">
+<Column name="id" id="C99CE49B-E2E1-D3BE-7541-2B82D3C15E9D">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:10:31 UTC</createdTime>
+<createdTime>2022-11-16 14:39:51 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TipObuke_id" id="08C055A9-FE0B-2B37-445F-1C2D87F2531D">
+<Column name="Skladiste_id" id="FA5DF7B8-0A2B-7262-2F4C-BABBB0F684F8">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:36 UTC</createdTime>
+<createdTime>2022-11-16 14:12:26 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,53 +29,65 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D566CBD3-E310-FB09-76C9-E5144FA45680" referredColumn="86FAF0C9-B5F4-AEA8-4DE8-B9BCF3A23FFE"/>
+<colAssociation fkAssociation="C97F21D5-6086-6292-D9CB-0766281324F0" referredColumn="27A7403F-247A-1678-1A3B-A68629B57A6D"/>
 </associations>
 </Column>
-<Column name="Zaposleni_id" id="5D734CF0-8193-0243-2EF3-29E79BE4E0DE">
+<Column name="Batch_id" id="D0D66DB4-4F49-28CF-F961-2C2CE6FE9747">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 13:20:51 UTC</createdTime>
+<createdTime>2022-11-16 14:13:36 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F779E9D2-9853-D2E2-5C24-E00519EEF3C5" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+<colAssociation fkAssociation="66947413-C285-E455-5B55-6D4A0F9EFE3C" referredColumn="8B8E6E69-4F6A-0A7C-CE70-72FCCB6A7B32"/>
 </associations>
+</Column>
+<Column name="velicinaBatcha" id="1D04CE13-B20B-149C-094C-D03F61B7A5D8">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 14:39:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="74AFF684-D0F4-8619-AFC5-756B75765C1D" name="Obuke_PK">
+<ind_PK_UK id="BB37BB10-AF27-30DE-BDD8-B56B7E897553" name="UskladisteniProizvodi_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:10:31 UTC</createdTime>
+<createdTime>2022-11-16 14:39:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C979E054-112C-720A-655F-FC3C29A362B0"/>
+<colUsage columnID="C99CE49B-E2E1-D3BE-7541-2B82D3C15E9D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E066254A-0A8E-2E8E-B9C6-99819EDF521E" name="O_Zaposleni_FK">
+<ind_PK_UK id="628C88B5-6EFD-3424-F15F-4F5A1939D52A" name="UskladisteniProizvodi_Skladiste_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:04 UTC</createdTime>
+<createdTime>2022-11-16 14:12:26 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5D734CF0-8193-0243-2EF3-29E79BE4E0DE"/>
+<colUsage columnID="FA5DF7B8-0A2B-7262-2F4C-BABBB0F684F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C0102FA7-1479-A02C-7992-ABE3F63CD702" name="O_TipObuke_FK">
+<ind_PK_UK id="37DDFE96-07B8-29BE-7005-708582EA193D" name="UskladisteniProizvodi_Batch_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:36 UTC</createdTime>
+<createdTime>2022-11-16 14:13:36 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="08C055A9-FE0B-2B37-445F-1C2D87F2531D"/>
+<colUsage columnID="D0D66DB4-4F49-28CF-F961-2C2CE6FE9747"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

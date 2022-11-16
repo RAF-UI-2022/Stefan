@@ -8,19 +8,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SklopljeniUgovori_id" id="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2">
+<Column name="id" id="2C902DC9-3FA7-5877-796A-63CDC73B2633">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:07:44 UTC</createdTime>
+<createdTime>2022-11-16 13:23:59 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0FA203DF-3D2B-2BA5-AB04-18F89B689FE1" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
-</associations>
 </Column>
 <Column name="ime" id="B067AF5E-DEF4-85CC-1AD4-CD0BE8CB19FB">
 <createdBy>HP</createdBy>
@@ -82,6 +78,20 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PravnoLice_id" id="09F61335-B67A-1A26-81B1-4CC4F33B9669">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:31:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3D46D97-93B5-A1CC-7E08-02F280EE9C5F" referredColumn="75A39D1E-5547-71C6-1870-B281D8D77C1A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8C5556D9-532D-FCB4-B62B-EC5248608244" name="Dobavljac_PK">
@@ -92,17 +102,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2"/>
+<colUsage columnID="2C902DC9-3FA7-5877-796A-63CDC73B2633"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6F0F5D99-B717-3E40-EDA7-ED024A9DAB61" name="D_SklopljeniUgovori_FKv2">
+<ind_PK_UK id="5154982A-CD66-9AA0-8818-F579479ABC34" name="Dobavljac_PravnoLice_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:07:44 UTC</createdTime>
+<createdTime>2022-11-16 13:31:40 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2"/>
+<colUsage columnID="09F61335-B67A-1A26-81B1-4CC4F33B9669"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

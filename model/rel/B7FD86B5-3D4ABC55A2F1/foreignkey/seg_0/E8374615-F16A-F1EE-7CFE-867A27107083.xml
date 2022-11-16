@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E031E49-318E-81C0-9439-08B957058B10" containerWithKeyObject="36CB1EF9-B400-D35F-2C92-DDE2157CAE64" localFKIndex="6026266F-0989-F811-8D7D-9D77BE25AB07" name="SUi_PravnoLice_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8374615-F16A-F1EE-7CFE-867A27107083" containerWithKeyObject="147E4FA7-7A28-8F67-4677-2855D88FEE34" localFKIndex="30C6DA63-FFDE-1725-B6B2-35EA8EA6C23A" name="PravnoLiceUgovor_PravnoLice_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:12:54 UTC</createdTime>
+<createdTime>2022-11-16 13:20:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <referredTableLongName>PravnoLice</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

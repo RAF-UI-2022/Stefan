@@ -8,19 +8,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="SklopljeniUgovori_id" id="F0DDC8DC-00D7-873A-9580-88903CA49954">
+<Column name="id" id="02EB3B8B-D920-B666-D23A-A499F0EFF2C7">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:59:09 UTC</createdTime>
+<createdTime>2022-11-16 13:20:51 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F32F96ED-06D0-28C7-CA34-F0F3B4F5141D" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
-</associations>
 </Column>
 <Column name="TipZaposlenog_id" id="041B8112-E7C8-BC8B-A25A-C9951A67F6FB">
 <createdBy>HP</createdBy>
@@ -82,17 +78,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0DDC8DC-00D7-873A-9580-88903CA49954"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="17A97907-FC0C-27B8-3C85-6483483C207A" name="Z_SklopljeniUgovori_FK">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:59:09 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F0DDC8DC-00D7-873A-9580-88903CA49954"/>
+<colUsage columnID="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="95B3DB55-9B7E-F0E7-93E3-2F24E1E227FC" name="Z_TipZaposlenog_FK">

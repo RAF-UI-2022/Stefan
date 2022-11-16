@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0343435F-CE4C-33E6-B471-F9BA2F857A35" name="Obuke">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="147E4FA7-7A28-8F67-4677-2855D88FEE34" name="PravnoLiceUgovor">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:10:15 UTC</createdTime>
+<createdTime>2022-11-16 13:18:50 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_78</ordsAlias>
+<ordsAlias>table_32</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="C979E054-112C-720A-655F-FC3C29A362B0">
+<Column name="Ugovor_id" id="202F9B4B-24DD-811F-D961-C40E1F083F6C">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:10:31 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TipObuke_id" id="08C055A9-FE0B-2B37-445F-1C2D87F2531D">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:36 UTC</createdTime>
+<createdTime>2022-11-16 13:19:24 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,53 +19,64 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D566CBD3-E310-FB09-76C9-E5144FA45680" referredColumn="86FAF0C9-B5F4-AEA8-4DE8-B9BCF3A23FFE"/>
+<colAssociation fkAssociation="57C4AB5E-BF09-33B9-CC99-1DF34992B44B" referredColumn="A91820DD-4FBA-1152-5742-DCF09418C1D9"/>
 </associations>
 </Column>
-<Column name="Zaposleni_id" id="5D734CF0-8193-0243-2EF3-29E79BE4E0DE">
+<Column name="PravnoLice_id" id="4F6D58EF-5B89-8EFD-C423-FEB24E4ACCC8">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 13:20:51 UTC</createdTime>
+<createdTime>2022-11-16 13:20:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F779E9D2-9853-D2E2-5C24-E00519EEF3C5" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+<colAssociation fkAssociation="E8374615-F16A-F1EE-7CFE-867A27107083" referredColumn="75A39D1E-5547-71C6-1870-B281D8D77C1A"/>
 </associations>
+</Column>
+<Column name="id" id="9C27AD50-82D2-A472-9891-172133E8752A">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:43:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="74AFF684-D0F4-8619-AFC5-756B75765C1D" name="Obuke_PK">
+<ind_PK_UK id="2ADC928B-0FF8-3F96-B04E-E5727DC98284" name="PravnoLiceUgovor_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:10:31 UTC</createdTime>
+<createdTime>2022-11-16 13:19:11 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C979E054-112C-720A-655F-FC3C29A362B0"/>
+<colUsage columnID="9C27AD50-82D2-A472-9891-172133E8752A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E066254A-0A8E-2E8E-B9C6-99819EDF521E" name="O_Zaposleni_FK">
+<ind_PK_UK id="A93BCD60-FCBD-459E-BF2D-F824F8DD9552" name="PravnoLiceUgovor_Ugovor_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:04 UTC</createdTime>
+<createdTime>2022-11-16 13:19:24 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5D734CF0-8193-0243-2EF3-29E79BE4E0DE"/>
+<colUsage columnID="202F9B4B-24DD-811F-D961-C40E1F083F6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C0102FA7-1479-A02C-7992-ABE3F63CD702" name="O_TipObuke_FK">
+<ind_PK_UK id="30C6DA63-FFDE-1725-B6B2-35EA8EA6C23A" name="PravnoLiceUgovor_PravnoLice_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:36 UTC</createdTime>
+<createdTime>2022-11-16 13:20:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="08C055A9-FE0B-2B37-445F-1C2D87F2531D"/>
+<colUsage columnID="4F6D58EF-5B89-8EFD-C423-FEB24E4ACCC8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

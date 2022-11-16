@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298BCD0C-9AC9-6F22-4F1F-7038ACC0B391" name="OnlineProizvod">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298BCD0C-9AC9-6F22-4F1F-7038ACC0B391" name="Proizvod">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-18 12:14:47 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -42,17 +42,6 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="B8F70CE0-F072-FC8D-0AA2-A575C709E935">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-18 12:16:32 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="KategorijaProizvoda_id" id="6F04F5D5-E10A-0FE4-B977-0B5A968EF45E">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-25 17:09:23 UTC</createdTime>
@@ -67,9 +56,9 @@
 <colAssociation fkAssociation="346B82D0-6FF2-BDE5-4747-87C92F05F7E4" referredColumn="C59AB106-598E-8D23-828E-4CD8EE9D59F4"/>
 </associations>
 </Column>
-<Column name="Dobavljaci_id" id="7DC7A4C6-CBC6-02F3-E89B-1EA567B35ADA">
+<Column name="Dobavljac_id" id="425A2D57-C57B-EFBC-D881-3E0800AF3263">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:08:06 UTC</createdTime>
+<createdTime>2022-11-16 13:23:59 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,7 +67,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E3DA1B4F-AF15-9946-D71A-5CFF2DC3098B" referredColumn="7BA86CE8-B1AB-439A-8CB1-27543B6D53A2"/>
+<colAssociation fkAssociation="E3DA1B4F-AF15-9946-D71A-5CFF2DC3098B" referredColumn="2C902DC9-3FA7-5877-796A-63CDC73B2633"/>
 </associations>
 </Column>
 </columns>
@@ -101,7 +90,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7DC7A4C6-CBC6-02F3-E89B-1EA567B35ADA"/>
+<colUsage columnID="425A2D57-C57B-EFBC-D881-3E0800AF3263"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FDA7B4DF-DD6D-AD4E-AAFB-5EE9C9006309" name="OP_KategorijaProizvoda_FK">

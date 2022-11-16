@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B19B87E-F253-2CF3-F07D-1B6C3F1CA935" name="Cenovnik">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:02:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4A3367C2-3451-9208-3150-6A3998EE2A48">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:03:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D823A87C-016E-5542-FAB2-9F4832B4547F" name="Cenovnik_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:03:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A3367C2-3451-9208-3150-6A3998EE2A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

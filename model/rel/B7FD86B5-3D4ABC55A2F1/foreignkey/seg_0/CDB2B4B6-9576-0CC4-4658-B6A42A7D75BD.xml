@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDB2B4B6-9576-0CC4-4658-B6A42A7D75BD" containerWithKeyObject="ABBF18BA-972B-5CEC-6F4D-CDA0962127D4" localFKIndex="AECEB945-7204-5B0D-E99B-67EAB010D6FD" name="EvidencijaRada_OdsustvoSaPosla_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 15:09:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>OdsustvoSaPosla</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>878E0A1A-6700-D2D7-B132-EA14C76DA92E</referredTableID>
+<keyObject>F49F8D67-DDFD-136A-D13B-01EF058F4BF0</keyObject>
+<referredKeyID>F49F8D67-DDFD-136A-D13B-01EF058F4BF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -51,7 +51,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OnlineProizvod_id" id="1E4FFACF-4F02-8840-57DA-5C42696FAD14">
+<Column name="Proizvod_id" id="1E4FFACF-4F02-8840-57DA-5C42696FAD14">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-25 17:04:40 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -63,6 +63,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="746605F0-48B4-1F5A-B140-13F18FD3C52A" referredColumn="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
+</associations>
+</Column>
+<Column name="Cenovnik_id" id="4F56C0D0-9A9D-72D6-A140-02D75019FDE3">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:03:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="857E59C1-87CF-8E91-D245-76C0DA5047A9" referredColumn="4A3367C2-3451-9208-3150-6A3998EE2A48"/>
 </associations>
 </Column>
 </columns>
@@ -86,6 +100,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1E4FFACF-4F02-8840-57DA-5C42696FAD14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69E915E1-F4C1-32D0-ED08-9DF9C0DE10D6" name="IstorijaCena_Cenovnik_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 13:03:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F56C0D0-9A9D-72D6-A140-02D75019FDE3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

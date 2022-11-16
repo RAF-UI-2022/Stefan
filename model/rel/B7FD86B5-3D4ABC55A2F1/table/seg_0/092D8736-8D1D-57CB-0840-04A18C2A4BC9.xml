@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OnlineProizvod_id" id="DE7CD64A-A111-24D9-B94A-D8921071ECF2">
+<Column name="Proizvod_id" id="DE7CD64A-A111-24D9-B94A-D8921071ECF2">
 <createdBy>HP</createdBy>
 <createdTime>2022-11-02 15:11:17 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -55,9 +55,9 @@
 <colAssociation fkAssociation="89276410-5700-3808-0F0D-DAC3FA90B5E2" referredColumn="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
 </associations>
 </Column>
-<Column name="Lokal_SklopljeniUgovori_id" id="D3F95DE7-1B14-755F-C96B-CDE264558B3B">
+<Column name="Lokal_id" id="66302DDA-26B4-DC81-A159-7B4B639A7D93">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-02 15:11:29 UTC</createdTime>
+<createdTime>2022-11-16 13:04:25 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,12 +66,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4EF2DC3E-5DEA-0759-694B-86FA5A6CEFE2" referredColumn="CA183FF5-D317-340A-0DE7-9B6568E949C4"/>
+<colAssociation fkAssociation="4EF2DC3E-5DEA-0759-694B-86FA5A6CEFE2" referredColumn="2AD8AA30-B63B-864D-9E22-BCAD2D4ABCDC"/>
 </associations>
 </Column>
-<Column name="Dostavljac_SklopljeniUgovori_id" id="86A6C344-0E84-4455-BF5E-86B18565F244">
+<Column name="Dostavljac_id" id="E65792A1-FD4B-C781-93E9-ED5A6CE801B2">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-02 15:11:43 UTC</createdTime>
+<createdTime>2022-11-16 13:23:14 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,7 +80,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2B6BF420-5DDE-3D9A-9B36-65E0FD7AD5E7" referredColumn="CF3C4BF0-70AD-D955-8137-B969C4AB7FE2"/>
+<colAssociation fkAssociation="2B6BF420-5DDE-3D9A-9B36-65E0FD7AD5E7" referredColumn="FD94B6F2-5D93-E22A-601F-110EB3D7D5E0"/>
 </associations>
 </Column>
 </columns>
@@ -113,7 +113,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D3F95DE7-1B14-755F-C96B-CDE264558B3B"/>
+<colUsage columnID="66302DDA-26B4-DC81-A159-7B4B639A7D93"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="97966378-5FAD-5B0B-B816-3459B6A4435A" name="Porudzbina_Dostavljac_FK">
@@ -123,7 +123,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="86A6C344-0E84-4455-BF5E-86B18565F244"/>
+<colUsage columnID="E65792A1-FD4B-C781-93E9-ED5A6CE801B2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

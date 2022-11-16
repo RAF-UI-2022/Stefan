@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C7FF8A3-9D15-48FA-ACD2-BA78F2293EDE" name="Lokal">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB5BE7B6-65CA-7C66-1040-21AD51D29F07" name="Smena">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:08:02 UTC</createdTime>
+<createdTime>2022-11-16 15:04:01 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <ordsAlias>table_49</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="2AD8AA30-B63B-864D-9E22-BCAD2D4ABCDC">
+<Column name="id" id="979F286E-6147-7113-4858-2703D11D0F4A">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 13:04:25 UTC</createdTime>
+<createdTime>2022-11-16 15:04:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,41 +18,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="adresa" id="18D8EC63-491C-6AC4-55E3-25AAB79CB18D">
+<Column name="od" id="CC82DC69-4A5D-0B46-ACFC-B0ADD315082C">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:08:51 UTC</createdTime>
+<createdTime>2022-11-16 15:09:37 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="broj" id="EB581C92-98F0-2780-F698-75A53E04F30E">
+<Column name="do" id="9A536F44-AAF8-1009-D215-3EEE6989D8C2">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:09:19 UTC</createdTime>
+<createdTime>2022-11-16 15:09:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EEA78141-0CE9-F21C-82B3-D5FBCFFC9B28" name="Lokal_PK">
+<ind_PK_UK id="FCA568AB-8A64-EA5D-AAF0-EFEB38B8536D" name="Smena_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:08:51 UTC</createdTime>
+<createdTime>2022-11-16 15:04:15 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2AD8AA30-B63B-864D-9E22-BCAD2D4ABCDC"/>
+<colUsage columnID="979F286E-6147-7113-4858-2703D11D0F4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

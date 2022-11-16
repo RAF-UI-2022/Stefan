@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509AC5D8-64DA-3D15-2E15-ABF9A54FF18A" name="Istorija ugovora">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25606783-210A-EC2B-995C-185BE4A241CF" name="IsplataZaposlenog">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:42:50 UTC</createdTime>
+<createdTime>2022-11-16 15:05:57 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_19</ordsAlias>
+<ordsAlias>table_50</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="1AB6E7FC-B7FB-FAEF-7C6D-7F7B47DA5DD5">
+<Column name="FizicnoLiceUgovor_id" id="DF2D94C5-E443-E865-D120-D84F6E7127C4">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:43:15 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SklopljeniUgovori_id" id="968C1208-E631-6C98-ED52-9718D175B238">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:53:57 UTC</createdTime>
+<createdTime>2022-11-16 15:06:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CF7A0452-1487-1592-7D3D-1B6BBD428E4E" referredColumn="BAC80A99-C6AB-6A56-F463-AE8DFB5A61C3"/>
+<colAssociation fkAssociation="5A3546A4-316F-C420-ABB4-71B82E38E721" referredColumn="64ABF854-D925-8DE1-9794-8994A2EDB52B"/>
+</associations>
+</Column>
+<Column name="EvidencijaRada_id" id="6C4B8116-DA2D-0521-C24A-6FC401ED7BB8">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 15:11:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3ACFD86-FD2F-5A5E-A490-1175D9C2AB57" referredColumn="3E581511-2EBE-EE87-78DB-A5B9221B55D3"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="47985A47-2B6B-C7B3-75B7-EE5ADBFF7E80" name="Istorija ugovora_PK">
+<ind_PK_UK id="BBC40100-F22D-0FC3-34EB-F798A8BC95A1" name="IsplataZaposlenog_FizicnoLiceUgovor_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:43:15 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1AB6E7FC-B7FB-FAEF-7C6D-7F7B47DA5DD5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="44CD38FD-0C71-8DEE-8F4C-E9D812CF919E" name="I_SklopljeniUgovori_FK">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 18:53:57 UTC</createdTime>
+<createdTime>2022-11-16 15:06:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="968C1208-E631-6C98-ED52-9718D175B238"/>
+<colUsage columnID="DF2D94C5-E443-E865-D120-D84F6E7127C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18D2074C-2953-B907-C185-B49AD49569CE" name="IsplataZaposlenog_EvidencijaRada_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 15:11:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C4B8116-DA2D-0521-C24A-6FC401ED7BB8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
