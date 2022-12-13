@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88B9FA07-3AA8-CEC2-A8E4-539F3C9A5513" name="TipOdsustva">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:06:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="69994938-7D39-8E44-96D5-E8AB1DAEAF5F">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="A1269F2A-F6A2-B072-2C6F-27A3AAB8E0D1">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A822ACB-7DE9-340A-2A4C-0A2F8418426D" name="TipOdsustva_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69994938-7D39-8E44-96D5-E8AB1DAEAF5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

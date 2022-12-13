@@ -18,20 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TipZaposlenog_id" id="041B8112-E7C8-BC8B-A25A-C9951A67F6FB">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:05:45 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A9B6A792-EC46-E09B-6683-138FA3899C9D" referredColumn="EE535674-1F5A-0450-7BD5-460BA43009A5"/>
-</associations>
-</Column>
 <Column name="prezime" id="67BAC83E-DAAC-798E-20AB-C40E14AF5099">
 <createdBy>HP</createdBy>
 <createdTime>2022-10-25 19:04:43 UTC</createdTime>
@@ -79,16 +65,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="95B3DB55-9B7E-F0E7-93E3-2F24E1E227FC" name="Z_TipZaposlenog_FK">
-<createdBy>HP</createdBy>
-<createdTime>2022-10-25 19:05:45 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="041B8112-E7C8-BC8B-A25A-C9951A67F6FB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

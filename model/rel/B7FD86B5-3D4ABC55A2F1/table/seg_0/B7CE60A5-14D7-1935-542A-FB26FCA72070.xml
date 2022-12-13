@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F18E5A6-CAAA-C380-8BD7-173215327881" name="TipZaposlenog">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7CE60A5-14D7-1935-542A-FB26FCA72070" name="RadnoMesto">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:39:50 UTC</createdTime>
+<createdTime>2022-12-13 18:28:23 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_16</ordsAlias>
+<ordsAlias>table_38</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="EE535674-1F5A-0450-7BD5-460BA43009A5">
+<Column name="id" id="99523D28-1995-56BC-C243-A2670A4A2E82">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:40:09 UTC</createdTime>
+<createdTime>2022-12-13 18:29:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="0A9AD6E7-9E6F-961F-26BA-12CF41A9FB60">
+<Column name="Naziv_radnog_mesta" id="17AD1D41-850C-74D4-521D-8FBDB7B569E6">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:40:40 UTC</createdTime>
+<createdTime>2022-12-13 18:29:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="605BA6A2-5C49-F139-2233-4DD6A506C651" name="TipZaposlenog_PK">
+<ind_PK_UK id="F6EBBBE7-FC15-BA56-F9A1-5E30069F2F67" name="RadnoMesto_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 12:40:09 UTC</createdTime>
+<createdTime>2022-12-13 18:29:18 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EE535674-1F5A-0450-7BD5-460BA43009A5"/>
+<colUsage columnID="99523D28-1995-56BC-C243-A2670A4A2E82"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

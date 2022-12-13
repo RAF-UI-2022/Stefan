@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3777F9FD-D931-3195-2BA9-37472E45C661" name="TipObuke">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:03:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="526AF4FE-6A59-6B92-034D-8DC0D930A83B">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:04:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="AB0131E2-C344-7A2B-C94E-1F600C757A32">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:04:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10D23D51-E699-3285-EF7E-377693D451C1" name="TipObuke_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:04:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="526AF4FE-6A59-6B92-034D-8DC0D930A83B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

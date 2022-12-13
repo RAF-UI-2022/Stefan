@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABBF18BA-972B-5CEC-6F4D-CDA0962127D4" name="EvidencijaRada">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BEC1306-9689-12D7-0C78-AC15168F69BB" name="StalniZaposleni">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:08:25 UTC</createdTime>
+<createdTime>2022-12-13 18:25:14 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_51</ordsAlias>
+<ordsAlias>table_36</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="3E581511-2EBE-EE87-78DB-A5B9221B55D3">
+<Column name="Zaposleni_id" id="5B9F0D91-18F1-416B-D70A-3B345C86685B">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:10:20 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="OdsustvoSaPosla_id" id="1BBC3B6E-4B5E-85C1-CF27-158AED1767A1">
-<createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:09:16 UTC</createdTime>
+<createdTime>2022-12-13 18:34:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CDB2B4B6-9576-0CC4-4658-B6A42A7D75BD" referredColumn="FEA2358F-369E-37A9-7933-592154EC0023"/>
+<colAssociation fkAssociation="D33B1D02-FBF1-3CBB-5335-BA693A4B7845" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
 </associations>
 </Column>
-<Column name="Smena_id" id="8725A85E-69E5-17BD-E022-9C730217CF44">
+<Column name="RadnoMesto_id" id="0F79975B-FC50-CCCB-7325-27CDC823F5BD">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:10:31 UTC</createdTime>
+<createdTime>2022-12-13 18:36:44 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,40 +33,41 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="03DF2569-263F-AADD-61C5-C5F4880C0D20" referredColumn="979F286E-6147-7113-4858-2703D11D0F4A"/>
+<colAssociation fkAssociation="B159641A-8000-0CA0-1466-14154ED6E024" referredColumn="99523D28-1995-56BC-C243-A2670A4A2E82"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="54823C6F-E5EF-DDD8-DE5C-CBDE27932632" name="EvidencijaRada_PK">
+<ind_PK_UK id="0FD2BD69-161A-C089-A9A9-6C3E6B1C8D4F" name="StalniZaposlenik_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:10:20 UTC</createdTime>
+<createdTime>2022-12-13 18:25:29 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3E581511-2EBE-EE87-78DB-A5B9221B55D3"/>
+<colUsage columnID="0F79975B-FC50-CCCB-7325-27CDC823F5BD"/>
+<colUsage columnID="5B9F0D91-18F1-416B-D70A-3B345C86685B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AECEB945-7204-5B0D-E99B-67EAB010D6FD" name="EvidencijaRada_OdsustvoSaPosla_FK">
+<ind_PK_UK id="D5B42FDD-5019-9E68-B1AA-88BB55428B81" name="StalniZaposleni_Zaposleni_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:09:15 UTC</createdTime>
+<createdTime>2022-12-13 18:34:56 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1BBC3B6E-4B5E-85C1-CF27-158AED1767A1"/>
+<colUsage columnID="5B9F0D91-18F1-416B-D70A-3B345C86685B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="893E2F2C-1C6F-B003-4EF4-10F758B7411C" name="EvidencijaRada_Smena_FK">
+<ind_PK_UK id="43E26875-F873-599F-6494-0A6CA700B687" name="StalniZaposleni_RadnoMesto_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:10:31 UTC</createdTime>
+<createdTime>2022-12-13 18:36:44 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8725A85E-69E5-17BD-E022-9C730217CF44"/>
+<colUsage columnID="0F79975B-FC50-CCCB-7325-27CDC823F5BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

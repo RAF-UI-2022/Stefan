@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41D16C33-B742-7ECE-C0AD-6B47B2457268" containerWithKeyObject="CFEC7B17-7ADB-7082-E000-77744B2068FE" localFKIndex="8A814BE9-6EB5-F726-0057-0D382D69BBB3" name="PlaceniBatchevi_Batch_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 21:54:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Batch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7F5C07D-CD16-41FB-E7CA-69D89AB56C9B</referredTableID>
+<keyObject>A8C33EBE-A14F-84E6-7B6C-E884D8FEA2C4</keyObject>
+<referredKeyID>A8C33EBE-A14F-84E6-7B6C-E884D8FEA2C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D294D9-9599-B6A8-99B5-3BE2115D1C85" name="PrekovremenaAngazovanost">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:58:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DFEA0E37-E47D-5AE7-64AB-CE3BCC174FDF">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:59:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipAngazovanosti_id" id="90A10D51-0E6D-A68B-5A5F-DA512B4EBCD4">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:00:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B6B60E3-58B3-B46E-06FF-597EA6783118" referredColumn="8B881F1F-1E74-FE29-6ADA-47FC6C8BEE3F"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id" id="B12E5D03-2986-FF99-EC9C-2118373B3996">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:00:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BBD9AA2-67E2-731A-C936-0007AE34FFDA" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+</associations>
+</Column>
+<Column name="od" id="9C09BF4A-0F1C-E3B4-46A5-7283A92226C4">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:59:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="6F25687D-3623-4A1D-4AE9-124F082F3B29">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:59:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="ECD9C1F8-2199-DFC0-9444-E981C0918770">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:09:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C44653C7-1611-36B0-4C9B-55849532A73D" name="PrekovremenaAngazovanost_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:59:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFEA0E37-E47D-5AE7-64AB-CE3BCC174FDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73404C3A-FFFE-E47D-3437-7253D01CC3B5" name="PrekovremenaAngazovanost_TipAngazovanosti_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:00:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90A10D51-0E6D-A68B-5A5F-DA512B4EBCD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D2014CB-4155-9DCC-BF5C-AA06C8685797" name="PrekovremenaAngazovanost_Zaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:00:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B12E5D03-2986-FF99-EC9C-2118373B3996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

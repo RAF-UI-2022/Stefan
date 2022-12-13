@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F779E9D2-9853-D2E2-5C24-E00519EEF3C5" containerWithKeyObject="0343435F-CE4C-33E6-B471-F9BA2F857A35" localFKIndex="E066254A-0A8E-2E8E-B9C6-99819EDF521E" name="O_Zaposleni_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAE99D6A-C4FA-C41C-DDBC-9197BB99B894" containerWithKeyObject="EDFCC8E1-5D2E-F2A1-A496-DDA22CEA9D0F" localFKIndex="F3DD5F07-9026-49BE-B81F-2E806A4C6C46" name="PrijemBatcha_Zaposleni_FK">
 <createdBy>HP</createdBy>
-<createdTime>2022-10-25 20:32:04 UTC</createdTime>
+<createdTime>2022-12-13 22:03:29 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <referredTableLongName>Zaposleni</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -9,7 +9,7 @@
 <keyObject>E6A3AD4C-6BC7-F1CF-A3A6-D5CC190A7F54</keyObject>
 <referredKeyID>E6A3AD4C-6BC7-F1CF-A3A6-D5CC190A7F54</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>SklopljeniUgovori_id</refColNames>
+<refColNames>id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

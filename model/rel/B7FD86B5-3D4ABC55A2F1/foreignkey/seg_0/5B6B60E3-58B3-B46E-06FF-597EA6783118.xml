@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B6B60E3-58B3-B46E-06FF-597EA6783118" containerWithKeyObject="32D294D9-9599-B6A8-99B5-3BE2115D1C85" localFKIndex="73404C3A-FFFE-E47D-3437-7253D01CC3B5" name="PrekovremenaAngazovanost_TipAngazovanosti_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:00:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>TipAngazovanosti</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F67D3B9-AA04-92BC-637A-DF38D00513DE</referredTableID>
+<keyObject>27C89744-57B8-0A2A-E704-EA951AD703A3</keyObject>
+<referredKeyID>27C89744-57B8-0A2A-E704-EA951AD703A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

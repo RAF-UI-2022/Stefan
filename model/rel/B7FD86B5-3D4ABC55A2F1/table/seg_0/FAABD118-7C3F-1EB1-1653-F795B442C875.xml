@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAABD118-7C3F-1EB1-1653-F795B442C875" name="PartTimeZaposleni_Smena">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:39:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E4894AAE-F99A-FEF1-11D9-57441B75BA53">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:40:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PartTimeZaposleni_Zaposleni_id" id="6B1050ED-7D64-628A-8284-0616684C80A8">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:41:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D426EC-8526-B36A-EFF9-A61FEF119C59" referredColumn="96A6302C-66C3-F44F-6132-5CF6EAC63533"/>
+</associations>
+</Column>
+<Column name="PartTimeZaposleni_RadnoMesto_id" id="057AAEEE-9D1E-DD89-0E89-E4D072E06952">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:41:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D426EC-8526-B36A-EFF9-A61FEF119C59" referredColumn="2FFFC963-9CD7-115C-222A-56DEAED67B82"/>
+</associations>
+</Column>
+<Column name="Smene_id" id="7FB89FBB-15C7-336D-C438-D700633B40DF">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:41:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E508EC0F-78FA-BCA4-68D8-5B50BD0DA48C" referredColumn="60027704-3424-9686-BE8E-58F60B38C056"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6022B31-F8E4-61EC-8071-50E16DD8D533" name="PartTimeZaposleni_Smena_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:40:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4894AAE-F99A-FEF1-11D9-57441B75BA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D5B16B8-AB40-0E41-49DC-8AFEB39814AB" name="PartTimeZaposleni_Smena_PartTimeZaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:41:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B1050ED-7D64-628A-8284-0616684C80A8"/>
+<colUsage columnID="057AAEEE-9D1E-DD89-0E89-E4D072E06952"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D7DF59F-BA0F-370C-E7BE-6FB5D211E25B" name="PartTimeZaposleni_Smena_Smene_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:41:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FB89FBB-15C7-336D-C438-D700633B40DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53B6A04B-1D42-BADA-F379-DD04C6BCEF70" containerWithKeyObject="F494A94B-2A32-6E74-76CC-A23C93F5F378" localFKIndex="7396B396-12E4-DF0A-3AF6-82CC2BCDAA77" name="OdsustvoSaPosla_TipOdsustva_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>TipOdsustva</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88B9FA07-3AA8-CEC2-A8E4-539F3C9A5513</referredTableID>
+<keyObject>2A822ACB-7DE9-340A-2A4C-0A2F8418426D</keyObject>
+<referredKeyID>2A822ACB-7DE9-340A-2A4C-0A2F8418426D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

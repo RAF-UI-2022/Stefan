@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB5BE7B6-65CA-7C66-1040-21AD51D29F07" name="Smena">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D58181-E7CC-7579-F114-1B0BFA6F5EB6" name="PrenosRobeUSkladiste">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:04:01 UTC</createdTime>
+<createdTime>2022-12-13 22:05:23 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<ordsAlias>table_49</ordsAlias>
+<ordsAlias>table_48</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="979F286E-6147-7113-4858-2703D11D0F4A">
+<Column name="id" id="E085E636-6F8E-FE80-D0E0-68C69281EE8B">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:04:15 UTC</createdTime>
+<createdTime>2022-12-13 22:06:57 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="od" id="CC82DC69-4A5D-0B46-ACFC-B0ADD315082C">
+<Column name="Skladiste_id" id="102493E5-5144-A890-83A0-FFDF41307D2F">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:09:37 UTC</createdTime>
+<createdTime>2022-12-13 22:11:09 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D03C9DF-D014-B79B-34E7-2958613C6FDF" referredColumn="27A7403F-247A-1678-1A3B-A68629B57A6D"/>
+</associations>
 </Column>
-<Column name="do" id="9A536F44-AAF8-1009-D215-3EEE6989D8C2">
+<Column name="vreme" id="22BF6084-8350-AB75-AC10-9B5A87D8D484">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:09:56 UTC</createdTime>
+<createdTime>2022-12-13 22:06:57 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,15 +45,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FCA568AB-8A64-EA5D-AAF0-EFEB38B8536D" name="Smena_PK">
+<ind_PK_UK id="095DF27C-67FB-A0E6-CC60-06D4151AEBD3" name="PrenosRobeUSkladiste_PK">
 <createdBy>HP</createdBy>
-<createdTime>2022-11-16 15:04:15 UTC</createdTime>
+<createdTime>2022-12-13 22:06:57 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="979F286E-6147-7113-4858-2703D11D0F4A"/>
+<colUsage columnID="E085E636-6F8E-FE80-D0E0-68C69281EE8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B8166AC-AFD2-A1CB-29BC-69F35761EC07" name="PrenosRobeUSkladiste_Skladiste_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:11:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="102493E5-5144-A890-83A0-FFDF41307D2F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

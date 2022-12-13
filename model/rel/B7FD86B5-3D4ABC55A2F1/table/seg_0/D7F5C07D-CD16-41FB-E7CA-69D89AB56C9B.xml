@@ -18,17 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kolicina" id="EA7569EA-60C8-21CF-577A-4A81A35032A7">
-<createdBy>HP</createdBy>
-<createdTime>2022-11-16 14:13:30 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Proizvod_id" id="B906DBFF-7976-3C83-7E20-A2A403FAF322">
 <createdBy>HP</createdBy>
 <createdTime>2022-11-16 14:15:29 UTC</createdTime>
@@ -42,6 +31,17 @@
 <associations>
 <colAssociation fkAssociation="2E3CA763-214B-841B-D498-598D7546A285" referredColumn="58C43BE6-B742-18B3-B77E-82B9C056F1F6"/>
 </associations>
+</Column>
+<Column name="kolicina" id="EA7569EA-60C8-21CF-577A-4A81A35032A7">
+<createdBy>HP</createdBy>
+<createdTime>2022-11-16 14:13:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F494A94B-2A32-6E74-76CC-A23C93F5F378" name="OdsustvoSaPosla">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:05:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="43BAD3ED-D907-CFD7-C790-B6666DF25F27">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:06:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipOdsustva_id" id="59869F40-457E-EA6B-D52C-9DB5BCC4E62B">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53B6A04B-1D42-BADA-F379-DD04C6BCEF70" referredColumn="69994938-7D39-8E44-96D5-E8AB1DAEAF5F"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id" id="4CA91F3C-B8FD-2D69-E691-0C170FE9A694">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF0E2CD1-041F-714A-940A-39B460E40C48" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+</associations>
+</Column>
+<Column name="od" id="06372355-33C0-006F-98B5-50B5B65EFF77">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:06:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="4D9D6585-4325-3AD0-7CD9-22C47038F495">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:06:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placeno" id="CD493A8A-AD0E-E08B-7108-23D33942D8AE">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:06:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E1B1A68-9544-0AD5-43E4-4F1092DB541E" name="OdsustvoSaPosla_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:06:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43BAD3ED-D907-CFD7-C790-B6666DF25F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7396B396-12E4-DF0A-3AF6-82CC2BCDAA77" name="OdsustvoSaPosla_TipOdsustva_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59869F40-457E-EA6B-D52C-9DB5BCC4E62B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9255AF7E-07AD-5D7D-868C-73E32AB915C0" name="OdsustvoSaPosla_Zaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:07:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA91F3C-B8FD-2D69-E691-0C170FE9A694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

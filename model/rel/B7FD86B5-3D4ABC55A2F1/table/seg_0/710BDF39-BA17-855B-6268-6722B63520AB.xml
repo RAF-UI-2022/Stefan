@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="710BDF39-BA17-855B-6268-6722B63520AB" name="PartTimeZaposleni">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:25:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_id" id="96A6302C-66C3-F44F-6132-5CF6EAC63533">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:35:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="967A8961-F3D7-6F4D-E9C0-6756D98E338B" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+</associations>
+</Column>
+<Column name="RadnoMesto_id" id="2FFFC963-9CD7-115C-222A-56DEAED67B82">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:36:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAE4BF27-F24B-6CE3-1AED-F8F1C14E97E5" referredColumn="99523D28-1995-56BC-C243-A2670A4A2E82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CDC4019-8C6E-41ED-BE8A-CBAFB6ABC339" name="PartTimeZaposleni_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:28:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A6302C-66C3-F44F-6132-5CF6EAC63533"/>
+<colUsage columnID="2FFFC963-9CD7-115C-222A-56DEAED67B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB6C968E-D966-FAD9-1E22-C6B8C4E123EA" name="PartTimeZaposleni_Zaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:35:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A6302C-66C3-F44F-6132-5CF6EAC63533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10F58D57-291B-2485-7FD7-FD9F9EC4AC2F" name="PartTimeZaposleni_RadnoMesto_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 18:36:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FFFC963-9CD7-115C-222A-56DEAED67B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

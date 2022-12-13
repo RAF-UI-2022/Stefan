@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C14543B-E576-C4EC-D1CE-9502D2A0AF1A" name="PrenosBatcha">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:08:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DC13D30B-39CC-4839-8D35-490E38B2F91A">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:09:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Batch_id" id="580A2AEB-5328-1EE5-9596-7E42C8AA2C38">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:09:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81DD30C0-C7F2-9B2D-3137-0BE73D84503F" referredColumn="8B8E6E69-4F6A-0A7C-CE70-72FCCB6A7B32"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id" id="14CAFF93-760B-DA0D-6E35-2DAAD4E51CC0">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:09:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561D30AF-463E-D298-EE14-E9E2831EA759" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+</associations>
+</Column>
+<Column name="PrenosRobeUSkladiste_id" id="0360D259-98F7-2919-26DD-184A69D751E4">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:10:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D340D5E7-2A97-5CC8-5F77-9F8132DB268C" referredColumn="E085E636-6F8E-FE80-D0E0-68C69281EE8B"/>
+</associations>
+</Column>
+<Column name="Skladiste_id" id="7D020D9A-73F0-EE2D-83C4-2DEA0F9AA745">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:18:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02AD8B3B-A303-ECC4-9FC4-A65E775DFE1E" referredColumn="27A7403F-247A-1678-1A3B-A68629B57A6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E199FE99-D270-1241-D90D-54C04830EF72" name="PrenosBatcha_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:09:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC13D30B-39CC-4839-8D35-490E38B2F91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="667BB915-C430-7E1D-F035-B9D3149D5098" name="PrenosBatcha_Batch_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:09:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="580A2AEB-5328-1EE5-9596-7E42C8AA2C38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C7A149F-0BDA-3AAA-923F-AD9C2D3B652D" name="PrenosBatcha_Zaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:09:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14CAFF93-760B-DA0D-6E35-2DAAD4E51CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BAD02A2-EA98-C7AD-47DE-E581222C3AAB" name="PrenosBatcha_PrenosRobeUSkladiste_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:10:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0360D259-98F7-2919-26DD-184A69D751E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF8D8991-FCEF-0DDC-DDD3-B2DA74B2E31D" name="PrenosBatcha_Skladiste_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:18:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D020D9A-73F0-EE2D-83C4-2DEA0F9AA745"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

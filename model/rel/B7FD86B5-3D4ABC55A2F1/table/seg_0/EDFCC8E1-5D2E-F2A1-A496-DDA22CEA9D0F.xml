@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDFCC8E1-5D2E-F2A1-A496-DDA22CEA9D0F" name="PrijemBatcha">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:01:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0C55406A-C13D-8C5F-0FD6-2A79794DB0F9">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:01:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Batch_id" id="09A43FC9-3CC4-79E6-5201-A97B0307B9BA">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:02:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="238B84AD-0907-E6B4-5956-54378388788B" referredColumn="8B8E6E69-4F6A-0A7C-CE70-72FCCB6A7B32"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id" id="13D9851F-0BAD-1A91-2DFA-61609DEA207D">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:03:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAE99D6A-C4FA-C41C-DDBC-9197BB99B894" referredColumn="02EB3B8B-D920-B666-D23A-A499F0EFF2C7"/>
+</associations>
+</Column>
+<Column name="PrenosRobeUSkladiste_id" id="EC9F38D8-500A-406C-F1F8-46C399C163DD">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:07:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC774C98-AE1A-C436-B530-B6026D83BC1A" referredColumn="E085E636-6F8E-FE80-D0E0-68C69281EE8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E7C433D-32CC-CA22-55F6-0E38AF921B14" name="PrijemBatcha_PK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:01:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C55406A-C13D-8C5F-0FD6-2A79794DB0F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2EDFA45-8098-1243-3E6C-6C1106EDA704" name="PrijemBatcha_Batch_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:02:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09A43FC9-3CC4-79E6-5201-A97B0307B9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3DD5F07-9026-49BE-B81F-2E806A4C6C46" name="PrijemBatcha_Zaposleni_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:03:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D9851F-0BAD-1A91-2DFA-61609DEA207D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F87E4E08-356B-2B35-32EE-D51623334A77" name="PrijemBatcha_PrenosRobeUSkladiste_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 22:07:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9F38D8-500A-406C-F1F8-46C399C163DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

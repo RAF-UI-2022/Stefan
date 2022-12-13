@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="331CBFF3-F34E-EDB9-1F5D-8520553B7772" containerWithKeyObject="920F2BDA-853E-BED1-09AB-9548050B631A" localFKIndex="9F6BC4E7-FDF0-7773-BC0E-70EA90565238" name="Obuka_TipObuke_FK">
+<createdBy>HP</createdBy>
+<createdTime>2022-12-13 19:04:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>TipObuke</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3777F9FD-D931-3195-2BA9-37472E45C661</referredTableID>
+<keyObject>10D23D51-E699-3285-EF7E-377693D451C1</keyObject>
+<referredKeyID>10D23D51-E699-3285-EF7E-377693D451C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
